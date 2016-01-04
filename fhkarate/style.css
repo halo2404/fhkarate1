@@ -1,0 +1,52 @@
+/*
+Theme Name: fh-karate.de Theme
+Theme URI: http://www.fh-karate.de/wordpress/
+Author: Jens Koehler
+Author URI: http://www.koehler-welt.de
+Description: fh-karate.de Theme is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, red, white, yellow, dark, light, one-column, two-columns, right-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: fhkarate
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**
+ * Table of Contents
+ *
+ */
+
+
+/**
+ * 1.0 - Normalize
+ *
+ * Normalizing styles have been helped along thanks to the fine work of
+ * Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+ */
+
+/**
+*@import url(https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans:400,400italic,700,700italic|PT+Sans+Caption:400,700|PT+Sans+Narrow:400,700|PT+Serif:400,400italic,700,700italic|PT+Serif+Caption:400,400italic);
+*/
+
+html {
+	font-family: 'PT Mono', ;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+/**
+	font-family: 'PT Mono', ;
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'PT Serif', serif;
+	font-family: 'PT Serif Caption', serif;
+*/

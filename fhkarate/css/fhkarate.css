@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans:400,400italic,700,700italic|PT+Sans+Caption:400,700|PT+Sans+Narrow:400,700|PT+Serif:400,400italic,700,700italic|PT+Serif+Caption:400,400italic|Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Open+Sans+Condensed:300,300italic,700);
+/* die Basis */
+html {
+  margin: 0;
+}
+
+body {
+  padding-top: 70px;
+  font-family: 'PT Sans';
+  font-size: 16px;
+}
+
+p {
+  color: #006699;
+}
+
+/* Mixins */
+/* meine Schriften */
+/* so soll es aussehen */
+h1, h2, h3, h4, h5, h6 {
+  color: #006699;
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+
+navbar, navbar-default {
+  background-color: #006699;
+}
+
+#header {
+  font-family: 'PT Sans Caption';
+  font-weight: 700;
+}
+
+#header p {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+#header p small {
+  font-size: 3rem;
+}
+
+menu-fussmenue-container ul li {
+  color: #fff;
+}
+
+menu-fussmenue-container .menu {
+  color: #fff;
+}
+
+#vfooter {
+  background-color: rgba(0, 102, 153, 0.5);
+}
+
+#vfooter p {
+  color: #fff;
+  margin: 0;
+}
+
+#footer {
+  background-color: #006699;
+}
+
+#footer p {
+  color: #fff;
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'PT Sans Narrow';
+}
+
+#footer a {
+  color: #fff;
+}
+
+/* der Kopfbereich */
+/* der Inhalt */
+/* der Fussbereich */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* der Seitenbereich */
+/* der Navigationsbereich */
